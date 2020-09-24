@@ -1,0 +1,61 @@
+body{
+    background-color: forestgreen;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#content{
+    width: 888px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    padding-top: 60px;
+    padding: 40px;
+}
+#imageright{
+    margin-left: 20px;
+    float: right;
+    border-radius: 15px;
+    border: 2px solid forestgreen;
+}
+#imageleft{
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+    border: 2px solid forestgreen;
+}
+.kepszoveg{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    background-color: tan;
+    color: #6f3104;
+    border-radius: 0 0 15px 15px;
+}
+img{
+    display: block;
+    width: 250px;
+    border-radius: 15px 15px 0 0;
+}
+h1, h2{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+ul, ol, p{
+    text-align: justify;
+}
+
+a, a:visited{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.clear{
+    clear: both;
+}
+p{
+    text-indent: 20px;
+}
